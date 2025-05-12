@@ -4,7 +4,7 @@
       "background": {
         "default": {
           "type": "color",
-          "value": "{global.white}",
+          "value": "{global.white.value}",
           "description": "",
           "$extensions": {
             "mode": {},
@@ -23,7 +23,7 @@
         },
         "primary": {
           "type": "color",
-          "value": "{global.eggplant.60}",
+          "value": "{global.acid.80.value}",
           "description": "",
           "$extensions": {
             "mode": {},
@@ -42,7 +42,7 @@
         },
         "primary-hover": {
           "type": "color",
-          "value": "{global.eggplant.70}",
+          "value": "{global.acid.90.value}",
           "description": "",
           "$extensions": {
             "mode": {},
@@ -61,7 +61,7 @@
         },
         "primary-active": {
           "type": "color",
-          "value": "{global.eggplant.90}",
+          "value": "{global.acid.100.value}",
           "description": "",
           "$extensions": {
             "mode": {},
@@ -80,7 +80,7 @@
         },
         "secondary": {
           "type": "color",
-          "value": "{global.eggplant.60}",
+          "value": "{global.acid.80.value}",
           "description": "",
           "$extensions": {
             "mode": {},
@@ -99,7 +99,7 @@
         },
         "secondary-hover": {
           "type": "color",
-          "value": "{global.eggplant.70}",
+          "value": "{global.acid.90.value}",
           "description": "",
           "$extensions": {
             "mode": {},
@@ -118,7 +118,7 @@
         },
         "secondary-active": {
           "type": "color",
-          "value": "{global.eggplant.90}",
+          "value": "{global.acid.100.value}",
           "description": "",
           "$extensions": {
             "mode": {},
@@ -137,7 +137,7 @@
         },
         "tertiary": {
           "type": "color",
-          "value": "{global.breeze.60}",
+          "value": "{global.breeze.60.value}",
           "description": "",
           "$extensions": {
             "mode": {},
@@ -156,7 +156,7 @@
         },
         "tertiary-hover": {
           "type": "color",
-          "value": "{global.breeze.80}",
+          "value": "{global.breeze.80.value}",
           "description": "",
           "$extensions": {
             "mode": {},
@@ -175,7 +175,7 @@
         },
         "tertiary-active": {
           "type": "color",
-          "value": "{global.breeze.90}",
+          "value": "{global.breeze.90.value}",
           "description": "",
           "$extensions": {
             "mode": {},
@@ -196,7 +196,7 @@
       "text": {
         "default": {
           "type": "color",
-          "value": "{global.white}",
+          "value": "{global.white.value}",
           "description": "",
           "$extensions": {
             "mode": {},
@@ -215,7 +215,7 @@
         },
         "primary": {
           "type": "color",
-          "value": "{global.wall.60}",
+          "value": "{global.wall.60.value}",
           "description": "",
           "$extensions": {
             "mode": {},
@@ -234,7 +234,7 @@
         },
         "secondary": {
           "type": "color",
-          "value": "{global.acid.90}",
+          "value": "{global.acid.90.value}",
           "description": "",
           "$extensions": {
             "mode": {},
@@ -253,7 +253,7 @@
         },
         "tertiary": {
           "type": "color",
-          "value": "{global.green.80}",
+          "value": "{global.green.80.value}",
           "description": "",
           "$extensions": {
             "mode": {},
@@ -272,7 +272,7 @@
         },
         "inverse": {
           "type": "color",
-          "value": "{global.black}",
+          "value": "{global.black.value}",
           "description": "",
           "$extensions": {
             "mode": {},
@@ -567,7 +567,7 @@
       "primary": {
         "bg-default": {
           "type": "color",
-          "value": "{semantic.color.background.primary}",
+          "value": "{global.acid.80.value}",
           "description": "",
           "$extensions": {
             "mode": {},
@@ -586,7 +586,7 @@
         },
         "bg-hover": {
           "type": "color",
-          "value": "{semantic.color.background.primary-hover}",
+          "value": "{global.acid.90.value}",
           "description": "",
           "$extensions": {
             "mode": {},
@@ -605,7 +605,7 @@
         },
         "bg-active": {
           "type": "color",
-          "value": "{semantic.color.background.primary-active}",
+          "value": "{global.acid.100.value}",
           "description": "",
           "$extensions": {
             "mode": {},
@@ -624,7 +624,7 @@
         },
         "foreground": {
           "type": "color",
-          "value": "{semantic.color.background.default}",
+          "value": "{semantic.color.background.default.value}",
           "description": "",
           "$extensions": {
             "mode": {},
@@ -643,7 +643,7 @@
         },
         "border-default": {
           "type": "color",
-          "value": "{semantic.color.background.primary}",
+          "value": "{global.acid.80.value}",
           "description": "",
           "$extensions": {
             "mode": {},
@@ -662,7 +662,7 @@
         },
         "border-hover": {
           "type": "color",
-          "value": "{semantic.color.background.primary-hover}",
+          "value": "{global.acid.90.value}",
           "description": "",
           "$extensions": {
             "mode": {},
@@ -681,7 +681,7 @@
         },
         "border-active": {
           "type": "color",
-          "value": "{semantic.color.background.primary-active}",
+          "value": "{global.acid.100.value}",
           "description": "",
           "$extensions": {
             "mode": {},
@@ -702,7 +702,7 @@
       "secondary": {
         "border-default": {
           "type": "color",
-          "value": "{semantic.color.background.secondary}",
+          "value": "{global.acid.80.value}",
           "description": "",
           "$extensions": {
             "mode": {},
@@ -721,7 +721,7 @@
         },
         "border-hover": {
           "type": "color",
-          "value": "{semantic.color.background.secondary-hover}",
+          "value": "{global.acid.90.value}",
           "description": "",
           "$extensions": {
             "mode": {},
@@ -740,7 +740,7 @@
         },
         "border-active": {
           "type": "color",
-          "value": "{semantic.color.background.secondary-active}",
+          "value": "{global.acid.100.value}",
           "description": "",
           "$extensions": {
             "mode": {},
@@ -759,7 +759,7 @@
         },
         "foreground": {
           "type": "color",
-          "value": "{semantic.color.background.secondary}",
+          "value": "{global.acid.90.value}",
           "description": "",
           "$extensions": {
             "mode": {},
@@ -778,7 +778,7 @@
         },
         "bg-default": {
           "type": "color",
-          "value": "{global.alpha}",
+          "value": "{global.alpha.value}",
           "description": "",
           "$extensions": {
             "mode": {},
@@ -797,7 +797,7 @@
         },
         "bg-hover": {
           "type": "color",
-          "value": "{global.alpha}",
+          "value": "{global.alpha.value}",
           "description": "",
           "$extensions": {
             "mode": {},
@@ -816,7 +816,7 @@
         },
         "bg-active": {
           "type": "color",
-          "value": "{global.alpha}",
+          "value": "{global.alpha.value}",
           "description": "",
           "$extensions": {
             "mode": {},
@@ -837,7 +837,7 @@
       "tertiary": {
         "foreground": {
           "type": "color",
-          "value": "{semantic.color.background.tertiary}",
+          "value": "{semantic.color.background.tertiary.value}",
           "description": "",
           "$extensions": {
             "mode": {},
@@ -856,7 +856,7 @@
         },
         "bg-default": {
           "type": "color",
-          "value": "{global.alpha}",
+          "value": "{global.alpha.value}",
           "description": "",
           "$extensions": {
             "mode": {},
@@ -875,7 +875,7 @@
         },
         "bg-hover": {
           "type": "color",
-          "value": "{global.alpha}",
+          "value": "{global.alpha.value}",
           "description": "",
           "$extensions": {
             "mode": {},
@@ -894,7 +894,7 @@
         },
         "bg-active": {
           "type": "color",
-          "value": "{global.alpha}",
+          "value": "{global.alpha.value}",
           "description": "",
           "$extensions": {
             "mode": {},
@@ -913,7 +913,7 @@
         },
         "fg-hover": {
           "type": "color",
-          "value": "{semantic.color.background.tertiary-hover}",
+          "value": "{semantic.color.background.tertiary-hover.value}",
           "description": "",
           "$extensions": {
             "mode": {},
@@ -932,7 +932,7 @@
         },
         "fg-active": {
           "type": "color",
-          "value": "{semantic.color.background.tertiary-active}",
+          "value": "{semantic.color.background.tertiary-active.value}",
           "description": "",
           "$extensions": {
             "mode": {},
@@ -953,7 +953,7 @@
       "dimension": {
         "padding-v": {
           "type": "dimension",
-          "value": "{semantic.spacing.xs}",
+          "value": "{semantic.spacing.xs.value}",
           "description": "",
           "$extensions": {
             "mode": {},
@@ -970,7 +970,7 @@
         },
         "padding-h": {
           "type": "dimension",
-          "value": "{semantic.spacing.xs}",
+          "value": "{semantic.spacing.xs.value}",
           "description": "",
           "$extensions": {
             "mode": {},
@@ -987,7 +987,7 @@
         },
         "radius": {
           "type": "dimension",
-          "value": "{semantic.radius.xs}",
+          "value": "{semantic.radius.xs.value}",
           "description": "",
           "$extensions": {
             "mode": {},
@@ -2950,6 +2950,240 @@
       }
     }
   },
+  "Typography": {
+    "typography": {
+      "h1": {
+        "type": "typography",
+        "value": {
+          "fontFamily": "{global.typography.font-family.DM Sans.value}",
+          "fontWeight": 500,
+          "fontStyle": "normal",
+          "fontSize": "{global.typography.font-size.0.value}",
+          "lineHeight": "{global.typography.line-height.0.value}",
+          "letterSpacing": "-1.5px",
+          "paragraphSpacing": "0",
+          "paragraphIndent": "0",
+          "textDecoration": "NONE",
+          "textCase": "ORIGINAL"
+        },
+        "description": "",
+        "$extensions": {
+          "styleId": "S:6dd3784d70b0414c9b78376c248140520a6693a7,"
+        }
+      },
+      "h2": {
+        "type": "typography",
+        "value": {
+          "fontFamily": "{global.typography.font-family.DM Sans.value}",
+          "fontWeight": 500,
+          "fontStyle": "normal",
+          "fontSize": "{global.typography.font-size.1.value}",
+          "lineHeight": "{global.typography.line-height.1.value}",
+          "letterSpacing": "-0.5px",
+          "paragraphSpacing": "0",
+          "paragraphIndent": "0",
+          "textDecoration": "NONE",
+          "textCase": "ORIGINAL"
+        },
+        "description": "",
+        "$extensions": {
+          "styleId": "S:4f0b8878b104b153a36441c08b5988127a5e02a5,"
+        }
+      },
+      "h3": {
+        "type": "typography",
+        "value": {
+          "fontFamily": "{global.typography.font-family.DM Sans.value}",
+          "fontWeight": 500,
+          "fontStyle": "normal",
+          "fontSize": "{global.typography.font-size.2.value}",
+          "lineHeight": "{global.typography.line-height.2.value}",
+          "letterSpacing": "0px",
+          "paragraphSpacing": "0",
+          "paragraphIndent": "0",
+          "textDecoration": "NONE",
+          "textCase": "ORIGINAL"
+        },
+        "description": "",
+        "$extensions": {
+          "styleId": "S:3c40375978d9a8917ee877914543fda452eb7610,"
+        }
+      },
+      "h4": {
+        "type": "typography",
+        "value": {
+          "fontFamily": "{global.typography.font-family.DM Sans.value}",
+          "fontWeight": 700,
+          "fontStyle": "normal",
+          "fontSize": "{global.typography.font-size.3.value}",
+          "lineHeight": "{global.typography.line-height.3.value}",
+          "letterSpacing": "0px",
+          "paragraphSpacing": "0",
+          "paragraphIndent": "0",
+          "textDecoration": "NONE",
+          "textCase": "ORIGINAL"
+        },
+        "description": "",
+        "$extensions": {
+          "styleId": "S:f12b74fca5ad11c78c427983d6c492b069ec925a,"
+        }
+      },
+      "h5": {
+        "type": "typography",
+        "value": {
+          "fontFamily": "{global.typography.font-family.DM Sans.value}",
+          "fontWeight": 700,
+          "fontStyle": "normal",
+          "fontSize": "{global.typography.font-size.4.value}",
+          "lineHeight": "{global.typography.line-height.4.value}",
+          "letterSpacing": "0px",
+          "paragraphSpacing": "0",
+          "paragraphIndent": "0",
+          "textDecoration": "NONE",
+          "textCase": "ORIGINAL"
+        },
+        "description": "",
+        "$extensions": {
+          "styleId": "S:4eefae7263ae01d87f0dd42e2f5bc5ce8f06a8a3,"
+        }
+      },
+      "h6": {
+        "type": "typography",
+        "value": {
+          "fontFamily": "{global.typography.font-family.DM Sans.value}",
+          "fontWeight": 700,
+          "fontStyle": "normal",
+          "fontSize": "{global.typography.font-size.5.value}",
+          "lineHeight": "{global.typography.line-height.4.value}",
+          "letterSpacing": "0px",
+          "paragraphSpacing": "0",
+          "paragraphIndent": "0",
+          "textDecoration": "NONE",
+          "textCase": "ORIGINAL"
+        },
+        "description": "",
+        "$extensions": {
+          "styleId": "S:2bd4e2142f52d9e07b2a368f939cae9d5e62e49b,"
+        }
+      },
+      "subtitle1": {
+        "type": "typography",
+        "value": {
+          "fontFamily": "{global.typography.font-family.DM Sans.value}",
+          "fontWeight": 700,
+          "fontStyle": "normal",
+          "fontSize": "{global.typography.font-size.6.value}",
+          "lineHeight": "{global.typography.line-height.5.value}",
+          "letterSpacing": "0.15000000596046448px",
+          "paragraphSpacing": "0",
+          "paragraphIndent": "0",
+          "textDecoration": "NONE",
+          "textCase": "ORIGINAL"
+        },
+        "description": "",
+        "$extensions": {
+          "styleId": "S:18b2e84cd245c1316cfc6ae4d60da7828c2318a9,"
+        }
+      },
+      "subtitle2": {
+        "type": "typography",
+        "value": {
+          "fontFamily": "{global.typography.font-family.DM Sans.value}",
+          "fontWeight": 700,
+          "fontStyle": "normal",
+          "fontSize": "{global.typography.font-size.7.value}",
+          "lineHeight": "{global.typography.line-height.6.value}",
+          "letterSpacing": "0.10000000149011612px",
+          "paragraphSpacing": "0",
+          "paragraphIndent": "0",
+          "textDecoration": "NONE",
+          "textCase": "ORIGINAL"
+        },
+        "description": "",
+        "$extensions": {
+          "styleId": "S:5907a790e94cf1b21c76edd61394cf355dcfbec6,"
+        }
+      },
+      "body1": {
+        "type": "typography",
+        "value": {
+          "fontFamily": "{global.typography.font-family.DM Sans.value}",
+          "fontWeight": 400,
+          "fontStyle": "normal",
+          "fontSize": "{global.typography.font-size.6.value}",
+          "lineHeight": "{global.typography.line-height.7.value}",
+          "letterSpacing": "0.15000000596046448px",
+          "paragraphSpacing": "0",
+          "paragraphIndent": "0",
+          "textDecoration": "NONE",
+          "textCase": "ORIGINAL"
+        },
+        "description": "",
+        "$extensions": {
+          "styleId": "S:3bcf2984ed00439f8c1aef0d8749fa273581cd4a,"
+        }
+      },
+      "body2": {
+        "type": "typography",
+        "value": {
+          "fontFamily": "{global.typography.font-family.DM Sans.value}",
+          "fontWeight": 400,
+          "fontStyle": "normal",
+          "fontSize": "{global.typography.font-size.7.value}",
+          "lineHeight": "{global.typography.line-height.8.value}",
+          "letterSpacing": "0.17000000178813934px",
+          "paragraphSpacing": "0",
+          "paragraphIndent": "0",
+          "textDecoration": "NONE",
+          "textCase": "ORIGINAL"
+        },
+        "description": "",
+        "$extensions": {
+          "styleId": "S:174962bdc118443b580ebf83662f4eda58f34440,"
+        }
+      },
+      "overline": {
+        "type": "typography",
+        "value": {
+          "fontFamily": "{global.typography.font-family.DM Sans.value}",
+          "fontWeight": 400,
+          "fontStyle": "normal",
+          "fontSize": "{global.typography.font-size.8.value}",
+          "lineHeight": "{global.typography.line-height.4.value}",
+          "letterSpacing": "1px",
+          "paragraphSpacing": "0",
+          "paragraphIndent": "0",
+          "textDecoration": "NONE",
+          "textCase": "UPPER"
+        },
+        "description": "",
+        "$extensions": {
+          "styleId": "S:a8ce4c0743fbe8212d1b4bed927e79a5b1e1071b,"
+        }
+      },
+      "caption": {
+        "type": "typography",
+        "value": {
+          "fontFamily": "{global.typography.font-family.DM Sans.value}",
+          "fontWeight": 400,
+          "fontStyle": "normal",
+          "fontSize": "{global.typography.font-size.8.value}",
+          "lineHeight": "{global.typography.line-height.9.value}",
+          "letterSpacing": "0.4000000059604645px",
+          "paragraphSpacing": "0",
+          "paragraphIndent": "0",
+          "textDecoration": "NONE",
+          "textCase": "ORIGINAL"
+        },
+        "description": "",
+        "$extensions": {
+          "styleId": "S:484169ee6ee189e9b346c2adb033bc2db6084500,"
+        }
+      }
+    }
+  },
+  "Grids": {},
+  "Effects": {},
   "$extensions": {
     "tokens-bruecke-meta": {
       "useDTCGKeys": false,
@@ -2959,7 +3193,7 @@
         "specific",
         "global"
       ],
-      "createdAt": "2025-05-12T04:31:50.538Z"
+      "createdAt": "2025-05-12T16:15:24.413Z"
     }
   }
 }
