@@ -1,6 +1,6 @@
 /**
  * Do not edit directly
- * Generated on Wed, 16 Apr 2025 17:30:37 GMT
+ * Generated on Mon, 12 May 2025 04:32:22 GMT
  */
 
 :root {
@@ -132,7 +132,7 @@
   --spacing-md: 24px;
   --spacing-xs: 12px;
   --button-dimension-radius: var(--radius-xs);
-  --button-dimension-padding-h: var(--spacing-md);
+  --button-dimension-padding-h: var(--spacing-xs);
   --button-dimension-padding-v: var(--spacing-xs);
   --button-tertiary-bg-active: var(--alpha);
   --button-tertiary-bg-hover: var(--alpha);

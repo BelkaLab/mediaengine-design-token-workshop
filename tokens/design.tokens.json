@@ -970,7 +970,7 @@
         },
         "padding-h": {
           "type": "dimension",
-          "value": "{semantic.spacing.md}",
+          "value": "{semantic.spacing.xs}",
           "description": "",
           "$extensions": {
             "mode": {},
@@ -2959,7 +2959,7 @@
         "specific",
         "global"
       ],
-      "createdAt": "2025-04-16T17:30:07.708Z"
+      "createdAt": "2025-05-12T04:31:50.538Z"
     }
   }
 }
