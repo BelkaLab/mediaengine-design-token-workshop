@@ -570,7 +570,10 @@
           "value": "{semantic.color.background.primary}",
           "description": "",
           "$extensions": {
-            "mode": {},
+            "mode": {
+              "Mode 1": "{semantic.color.background.primary}",
+              "Mode 2": "{semantic.color.background.primary}"
+            },
             "figma": {
               "codeSyntax": {
                 "WEB": "button-primary-bg"
@@ -589,7 +592,10 @@
           "value": "{semantic.color.background.primary-hover}",
           "description": "",
           "$extensions": {
-            "mode": {},
+            "mode": {
+              "Mode 1": "{semantic.color.background.primary-hover}",
+              "Mode 2": "{semantic.color.background.primary-hover}"
+            },
             "figma": {
               "codeSyntax": {
                 "WEB": "button-primary-bg-hover"
@@ -608,7 +614,10 @@
           "value": "{semantic.color.background.primary-active}",
           "description": "",
           "$extensions": {
-            "mode": {},
+            "mode": {
+              "Mode 1": "{semantic.color.background.primary-active}",
+              "Mode 2": "{semantic.color.background.primary-active}"
+            },
             "figma": {
               "codeSyntax": {
                 "WEB": "button-primary-bg-active"
@@ -627,7 +636,10 @@
           "value": "{semantic.color.background.default}",
           "description": "",
           "$extensions": {
-            "mode": {},
+            "mode": {
+              "Mode 1": "{semantic.color.background.default}",
+              "Mode 2": "{semantic.color.background.default}"
+            },
             "figma": {
               "codeSyntax": {
                 "WEB": "button-primary-foreground"
@@ -643,10 +655,13 @@
         },
         "border-default": {
           "type": "color",
-          "value": "{semantic.color.background.primary}",
+          "value": "{global.pink.80}",
           "description": "",
           "$extensions": {
-            "mode": {},
+            "mode": {
+              "Mode 1": "{global.pink.80}",
+              "Mode 2": "{global.pink.80}"
+            },
             "figma": {
               "codeSyntax": {
                 "WEB": "button-primary-border"
@@ -665,7 +680,10 @@
           "value": "{semantic.color.background.primary-hover}",
           "description": "",
           "$extensions": {
-            "mode": {},
+            "mode": {
+              "Mode 1": "{semantic.color.background.primary-hover}",
+              "Mode 2": "{semantic.color.background.primary-hover}"
+            },
             "figma": {
               "codeSyntax": {
                 "WEB": "button-primary-border-hover"
@@ -684,7 +702,10 @@
           "value": "{semantic.color.background.primary-active}",
           "description": "",
           "$extensions": {
-            "mode": {},
+            "mode": {
+              "Mode 1": "{semantic.color.background.primary-active}",
+              "Mode 2": "{semantic.color.background.primary-active}"
+            },
             "figma": {
               "codeSyntax": {
                 "WEB": "button-primary-border-active"
@@ -705,7 +726,10 @@
           "value": "{semantic.color.background.secondary}",
           "description": "",
           "$extensions": {
-            "mode": {},
+            "mode": {
+              "Mode 1": "{semantic.color.background.secondary}",
+              "Mode 2": "{semantic.color.background.secondary}"
+            },
             "figma": {
               "codeSyntax": {
                 "WEB": "button-secondary-border"
@@ -724,7 +748,10 @@
           "value": "{semantic.color.background.secondary-hover}",
           "description": "",
           "$extensions": {
-            "mode": {},
+            "mode": {
+              "Mode 1": "{semantic.color.background.secondary-hover}",
+              "Mode 2": "{semantic.color.background.secondary-hover}"
+            },
             "figma": {
               "codeSyntax": {
                 "WEB": "button-secondary-border-hover"
@@ -743,7 +770,10 @@
           "value": "{semantic.color.background.secondary-active}",
           "description": "",
           "$extensions": {
-            "mode": {},
+            "mode": {
+              "Mode 1": "{semantic.color.background.secondary-active}",
+              "Mode 2": "{semantic.color.background.secondary-active}"
+            },
             "figma": {
               "codeSyntax": {
                 "WEB": "button-secondary-border-active"
@@ -762,7 +792,10 @@
           "value": "{semantic.color.background.secondary}",
           "description": "",
           "$extensions": {
-            "mode": {},
+            "mode": {
+              "Mode 1": "{semantic.color.background.secondary}",
+              "Mode 2": "{semantic.color.background.secondary}"
+            },
             "figma": {
               "codeSyntax": {
                 "WEB": "button-secondary-foreground"
@@ -781,7 +814,10 @@
           "value": "{global.alpha}",
           "description": "",
           "$extensions": {
-            "mode": {},
+            "mode": {
+              "Mode 1": "{global.alpha}",
+              "Mode 2": "{global.alpha}"
+            },
             "figma": {
               "codeSyntax": {
                 "WEB": "button-secondary-bg"
@@ -800,7 +836,10 @@
           "value": "{global.alpha}",
           "description": "",
           "$extensions": {
-            "mode": {},
+            "mode": {
+              "Mode 1": "{global.alpha}",
+              "Mode 2": "{global.alpha}"
+            },
             "figma": {
               "codeSyntax": {
                 "WEB": "button-secondary-bg-hover"
@@ -819,7 +858,10 @@
           "value": "{global.alpha}",
           "description": "",
           "$extensions": {
-            "mode": {},
+            "mode": {
+              "Mode 1": "{global.alpha}",
+              "Mode 2": "{global.alpha}"
+            },
             "figma": {
               "codeSyntax": {
                 "WEB": "button-secondary-bg-active"
@@ -840,7 +882,10 @@
           "value": "{semantic.color.background.tertiary}",
           "description": "",
           "$extensions": {
-            "mode": {},
+            "mode": {
+              "Mode 1": "{semantic.color.background.tertiary}",
+              "Mode 2": "{semantic.color.background.tertiary}"
+            },
             "figma": {
               "codeSyntax": {
                 "WEB": "button-secondary-foreground"
@@ -859,7 +904,10 @@
           "value": "{global.alpha}",
           "description": "",
           "$extensions": {
-            "mode": {},
+            "mode": {
+              "Mode 1": "{global.alpha}",
+              "Mode 2": "{global.alpha}"
+            },
             "figma": {
               "codeSyntax": {
                 "WEB": "button-secondary-bg"
@@ -878,7 +926,10 @@
           "value": "{global.alpha}",
           "description": "",
           "$extensions": {
-            "mode": {},
+            "mode": {
+              "Mode 1": "{global.alpha}",
+              "Mode 2": "{global.alpha}"
+            },
             "figma": {
               "codeSyntax": {
                 "WEB": "button-secondary-bg-hover"
@@ -897,7 +948,10 @@
           "value": "{global.alpha}",
           "description": "",
           "$extensions": {
-            "mode": {},
+            "mode": {
+              "Mode 1": "{global.alpha}",
+              "Mode 2": "{global.alpha}"
+            },
             "figma": {
               "codeSyntax": {
                 "WEB": "button-secondary-bg-active"
@@ -916,7 +970,10 @@
           "value": "{semantic.color.background.tertiary-hover}",
           "description": "",
           "$extensions": {
-            "mode": {},
+            "mode": {
+              "Mode 1": "{semantic.color.background.tertiary-hover}",
+              "Mode 2": "{semantic.color.background.tertiary-hover}"
+            },
             "figma": {
               "codeSyntax": {
                 "WEB": "button-secondary-border-hover"
@@ -935,7 +992,10 @@
           "value": "{semantic.color.background.tertiary-active}",
           "description": "",
           "$extensions": {
-            "mode": {},
+            "mode": {
+              "Mode 1": "{semantic.color.background.tertiary-active}",
+              "Mode 2": "{semantic.color.background.tertiary-active}"
+            },
             "figma": {
               "codeSyntax": {
                 "WEB": "button-secondary-border-active"
@@ -956,7 +1016,10 @@
           "value": "{semantic.spacing.xs}",
           "description": "",
           "$extensions": {
-            "mode": {},
+            "mode": {
+              "Mode 1": "{semantic.spacing.xs}",
+              "Mode 2": "{semantic.spacing.xs}"
+            },
             "figma": {
               "codeSyntax": {},
               "variableId": "VariableID:8002:156",
@@ -973,7 +1036,10 @@
           "value": "{semantic.spacing.xs}",
           "description": "",
           "$extensions": {
-            "mode": {},
+            "mode": {
+              "Mode 1": "{semantic.spacing.xs}",
+              "Mode 2": "{semantic.spacing.xs}"
+            },
             "figma": {
               "codeSyntax": {},
               "variableId": "VariableID:8002:157",
@@ -990,7 +1056,10 @@
           "value": "{semantic.radius.xs}",
           "description": "",
           "$extensions": {
-            "mode": {},
+            "mode": {
+              "Mode 1": "{semantic.radius.xs}",
+              "Mode 2": "{semantic.radius.xs}"
+            },
             "figma": {
               "codeSyntax": {},
               "variableId": "VariableID:8002:158",
@@ -2959,7 +3028,7 @@
         "specific",
         "global"
       ],
-      "createdAt": "2025-05-12T04:31:50.538Z"
+      "createdAt": "2025-05-12T16:17:24.180Z"
     }
   }
 }
