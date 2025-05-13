@@ -23,7 +23,7 @@
         },
         "primary": {
           "type": "color",
-          "value": "{global.eggplant.60}",
+          "value": "{global.acid.60}",
           "description": "",
           "$extensions": {
             "mode": {},
@@ -61,7 +61,7 @@
         },
         "primary-active": {
           "type": "color",
-          "value": "{global.eggplant.90}",
+          "value": "{global.acid.90}",
           "description": "",
           "$extensions": {
             "mode": {},
@@ -586,7 +586,7 @@
         },
         "bg-hover": {
           "type": "color",
-          "value": "{semantic.color.background.primary-hover}",
+          "value": "{global.acid.70}",
           "description": "",
           "$extensions": {
             "mode": {},
@@ -605,7 +605,7 @@
         },
         "bg-active": {
           "type": "color",
-          "value": "{semantic.color.background.primary-active}",
+          "value": "{global.acid.80}",
           "description": "",
           "$extensions": {
             "mode": {},
@@ -624,7 +624,7 @@
         },
         "foreground": {
           "type": "color",
-          "value": "{semantic.color.background.default}",
+          "value": "{global.black}",
           "description": "",
           "$extensions": {
             "mode": {},
@@ -662,7 +662,7 @@
         },
         "border-hover": {
           "type": "color",
-          "value": "{semantic.color.background.primary-hover}",
+          "value": "{global.acid.90}",
           "description": "",
           "$extensions": {
             "mode": {},
@@ -681,7 +681,7 @@
         },
         "border-active": {
           "type": "color",
-          "value": "{semantic.color.background.primary-active}",
+          "value": "{global.acid.80}",
           "description": "",
           "$extensions": {
             "mode": {},
@@ -2959,7 +2959,7 @@
         "specific",
         "global"
       ],
-      "createdAt": "2025-05-12T04:31:50.538Z"
+      "createdAt": "2025-05-12T16:15:29.508Z"
     }
   }
 }
